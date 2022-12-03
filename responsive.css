@@ -1,0 +1,134 @@
+@media all and (max-width : 1250px) {
+    .list {
+        width: 50%;
+        margin-bottom: 200px;
+    }
+    .list2 {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+    .heading h2 {
+        margin-top: -8%;
+        font-size: 30px;
+    }
+    .heading p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header-right {
+        margin-left: 50%;
+    }
+    .header-right a{
+        padding: 0 15px;
+    }
+    .hr {
+        padding-left: 5px;
+    }
+    .top-wrapper {
+        padding: 120px 30px;
+    }
+    .top-wrapper h1 {
+        font-size: 35px;
+    }
+    .img {
+        width: 200px;
+    }
+    .imege {
+        margin-right: -10%;
+        margin-top: -38%;
+    }
+    .working span {
+        margin-top: -18%;
+        margin-left: 35px;
+    }
+    .list-wrapper {
+        padding-bottom: 1000px;
+    }
+    .text-contents {
+        font-size: 20px;
+    }
+    .title2 {
+        font-size: 20px;
+        width: 50%;
+    }
+    .footer-right {
+        display: none;
+    }
+    .main-footer {
+        float: right;
+        margin-top: -20%;
+    }
+
+    
+}
+
+@media all and (max-width :670px) {
+    .list {
+        width: 100%;
+    }
+    .list2 {
+        width: 100%;
+    }
+    .list-wrapper {
+        padding-bottom: 2000px;
+    }
+    .top-wrapper {
+        padding: 220px 10px;
+        margin-top: -30%;
+        line-height: 40px;
+        margin-bottom: 280px;
+    }
+    .top-wrapper h1 {
+        text-align: center;
+        margin-top: -10%;
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .top-wrapper p {
+        width: 100%;
+        font-size: 25px;
+        text-align: left;
+        line-height: 25px;
+        padding-bottom: 50px;
+    }
+    .header-left {
+        font-size: 17px;
+    }
+    
+    .header-logo {
+        margin-left: -10px;
+        padding-right: -10px;
+        margin-top: -25px;
+        width: 60px;
+    }
+    .header-right{
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .menu {
+        display: block;
+        width: 50px;
+        float: right;
+        margin-top: -7%;
+    }
+    .menu:hover {
+        width: 51px;
+    }
+    .working span {
+        margin-top: -20%;
+        margin-left: -19%;
+    }
+    .btn1 .btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title2 {
+        margin-left: 90px;
+    }
+    .footer-right {
+        display: none;
+    }
+}
