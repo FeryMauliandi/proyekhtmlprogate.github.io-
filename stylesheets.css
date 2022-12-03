@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0 ;
+    font-family: calibri;
+    background-color: rgb(189, 255, 255);
+    
+}
+
+a {
+    text-decoration: none;
+}
+ 
+.container {
+    max-width: 2100px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
+   
+header {
+    height: 85px;
+    width:  100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(189, 254, 254) ;
+}
+
+.header-logo  {
+    float: left;
+    width: 90px;
+    margin-left: 3%;
+    margin-top: -30px;
+}
+
+.header-left {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 32px;
+    animation: chcolor infinite 2s alternate linear;
+}
+
+@keyframes chcolor {
+    0% {
+        color: #0652DD;
+    }
+    25% {
+        color: #0652DD;
+    }
+    50% {
+        color: #F79F1F;
+    }
+    100% {
+        color:#F79F1F;
+    }
+}
+
+.header-left span {
+    /* color :#F79F1F; */
+    animation: chspan infinite 2s alternate linear;
+}
+
+@keyframes chspan {
+    0% {
+        color: #F79F1F;
+    }
+    25% {
+        color: #F79F1F;
+    }
+    50% {
+        color: #0652DD;
+    }
+    100% {
+        color: #0652DD;
+    }
+}
+
+.header-right {
+    margin-left: 65%;
+    margin-top: -30px;
+}
+
+.header-right a {
+    padding: 0 25px;
+    color : rgb(83, 83, 83);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hr {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 86%;
+    margin-top: -20px;
+    padding-left: 30px;
+}
+.menu {
+    display: none;
+}
+.home {
+    background-color: #F79F1F;
+    border-radius: 5px
+}
+
+
+.login {
+    color: rgb(189, 254, 254);
+    background-color: #fcb54a;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 2px solid #0652DD;
+}
+
+
+.login:hover {
+    background-color: #F79F1F;
+    color: #0652DD;
+}
+
+
+.top-wrapper {
+    padding: 180px 130px ;
+    margin-bottom: 100px;
+    
+}
+
+.top-wrapper h1 {
+    font-family: "Lucida Handwriting";
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 55px;
+    color:  rgb(0, 0, 0) ;
+}
+
+.img {
+    width: 350px;
+    margin-bottom: -21%;
+    margin-left: 2%;
+}
+.imege {
+    float: right;
+    margin-top: -25%;
+}
+
+.top-wrapper p {
+    width: 30%;
+    position: relative;
+    font-family: calibri;
+    font-size: 22px;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.top-wrapper a {
+    float:  left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+
+.btn {
+    background-color: #F79F1F;
+    color: rgb(189, 254, 254);
+    border-radius: 30px;
+    border: 2px solid #F79F1F;
+}
+.btn:hover{
+    color: #F79F1F;
+    background-color: rgb(189, 254, 254);
+    border: 2px solid black;
+}
+
+.btn1 {
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+
+.heading {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.heading h2 {
+    font-size: 45px;
+    font-family: "OCR A Std", monospace;
+    margin-top: -5%;
+    color: black;
+}
+
+.heading img {
+    width: 150px;
+}
+
+.imeg {
+    margin-top: -2%;
+    float: left;
+    width: 250px;
+}
+
+.rotate-word {
+    display: inline;
+    margin-left: 16%;
+}
+
+.working span {
+    margin-top: -8%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10%;
+    width: max-content;
+    position: absolute;
+    background-color: #F79F1F;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline: 20px;
+    opacity: 0;
+    transform-origin: 10% 75%;
+    animation: rotateWords 16s var(--d) linear infinite;
+}
+
+@keyframes rotateWords {
+    5% {
+        opacity: 1;
+    }
+    10%,
+    20% {
+        opacity: 1;
+        transform: rotate(3deg);
+    }
+    15% {
+        transform: rotate(-1deg);
+        background-color: #F79F1F;
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(90px)rotate(10deg);
+        background-color: #0652DD;
+    }
+}
+
+.heading p {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(31, 30, 30);
+    line-height: 10px;
+    
+}
+
+.list-wrapper {
+    padding-bottom: 580px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #2d6adb;
+    text-align: center;
+}
+  
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+  
+.heading h2 {
+    font-weight: normal;
+    font-weight: 1000;
+}
+  
+.list {
+    float: left;
+    width: 25%;
+    font-family: calibri;
+}
+  
+.list-icon {
+    position: relative;
+}
+
+.list-icon img {
+    width: 280px;
+    border-radius: 50px;
+}
+
+  
+.title {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    top: 5%;
+    width: 100%;
+    color: #F79F1F;
+}
+  
+.text-contents {
+    width: 40%;
+    margin-top: -75%;
+    margin-left: 110px;
+    font-size: 30px;
+    color: black;
+}
+
+.main {
+    text-align: center;
+    font-family: calibri;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 450px;
+    margin-top: 50px;
+}
+.main h3 {
+    color: red;
+    padding-top: 30px;
+}
+.main h1 {
+    color: #0652DD;
+}
+
+.list2{
+    float: left;
+    width: 25%;
+    font-family: calibri;
+    
+}
+  
+.list-icon2 {
+    position: relative;
+}
+
+.list-icon2 img {
+    width: 250px;
+    border-radius: 50px; 
+}
+
+  
+.title2 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 50px;
+    top: 20%;
+    margin-left: 70px;
+    width: 60%;
+    color: red;
+}
+.img2 {
+    width: 10px;
+}
+
+footer p {
+    color: black;
+    font-size: 20px;
+}
+  
+footer {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.footer-logo {
+    float: left;
+    width: 100px;
+    margin-left: 3%;
+    margin-top: -30px;
+} 
+
+li {
+    list-style: none;
+}
+
+.footer-left {
+    font-family: calibri;
+    font-weight: bold;   
+    font-size: 30px;
+    margin-top: 32px;
+    color : #0652DD;
+}
+
+.footer-left span {
+    color: #f79f1f;
+}
+
+.footer-text {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.main-footer {
+    margin-left: 10%;
+    padding-right: 20px;
+    margin-top: -9%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 100px;
+    margin-top: -9%;
+}
+
+
+
